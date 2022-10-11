@@ -2,16 +2,18 @@
 
 html, body {
   color: #E7F6F2;
-  background-color: #2C3333;
   font-size: 1em;
   font-family: 'Varela Round', sans-serif;
   margin: 0;
+  background-image: url("../img/deepspace.webp");
+  background-size: cover;
 }
 
 header {
   padding: 1rem;
   background-color: #395B64;
   margin-bottom: 2rem;
+  opacity: 0.8;
 }
 header a {
   color: #E7F6F2;
@@ -32,6 +34,10 @@ td, th {
   padding: 15px;
   border: 1px dashed white;
   font-size: 1.2em;
+}
+
+tr {
+  background-color: #2C3333;
 }
 
 th {
