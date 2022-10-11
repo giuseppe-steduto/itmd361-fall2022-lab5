@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@keyframes zoomInOut {
+  0% {transform: scale(1)}
+  50% {transform: scale(1.1)}
+  100% {transform: scale(1)}
+}
 
 html, body {
   color: #E7F6F2;
@@ -34,6 +39,27 @@ table {
   border-collapse: collapse;
   border: 2px solid white;
   margin: auto;
+}
+
+.img-row img {
+  width: 60px;
+  animation: zoomInOut 2.5s ease infinite;
+}
+#mercury-img {
+  animation-delay: 0.5s;
+}
+#venus-img {
+  animation-delay: 1s;
+}
+#mars-img {
+  animation-delay: 0.2s;
+}
+.img-row td {
+  text-align: center;
+  border-right: 0;
+}
+.img-row {
+  background-color: transparent;
 }
 
 td, th {
